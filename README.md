@@ -24,13 +24,14 @@ An interactive web application that generates multiple-choice quizzes for studen
 
 ## 📁 Folder Structure
 
-
+```
 ai-quiz-generator/
 ├── app.py               # Main Streamlit application
-├── .env                 # API key (ignored by Git)
+├── .env                 # API key 
 ├── .gitignore           # Specifies files to ignore
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation (this file)
+```
 
 
 ## 🚀 Getting Started
@@ -44,39 +45,47 @@ cd ai-quiz-generator
 
 ### 2. (Optional) Set Up Virtual Environment
 
+```bash
 python -m venv venv
 # Activate:
 # Windows:
 venv\Scripts\activate
 # macOS/Linux:
 source venv/bin/activate
+```
 
 ### 3. Install Required Libraries
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Configure Gemini API
 
 Create a `.env` file in the root directory and add your API key:
 
-env
+```env
 GEMINI_API_KEY=your_actual_gemini_api_key_here
+```
 
 ## ▶️ Run the App
 
+```bash
 streamlit run app.py
-
+```
 
 The application will open in your default browser.
 
-
+---
 
 ## 📸 Screenshots
 
-> *(Optional)* Add screenshots of the interface here, such as:
-- Quiz Selection Screen
-- Question UI
-- Result Page
+
+![Screenshot 2025-04-15 103538](https://github.com/user-attachments/assets/15547588-d6d9-4c9e-a35b-5e332dfa403d)
+![Screenshot 2025-04-15 103318](https://github.com/user-attachments/assets/e64a208d-329e-42b6-814c-a85abb0e9109)
+![Screenshot 2025-04-15 103452](https://github.com/user-attachments/assets/a0e14243-354f-4833-86f0-5d650326729a)
+![Screenshot 2025-04-15 103258](https://github.com/user-attachments/assets/1e1a268e-f5fc-491f-8eed-8d99cefd6d4f)
+
 
 ---
 
@@ -135,7 +144,7 @@ You are free to use, modify, and distribute it with attribution.
 ## 🙋‍♂️ Author
 
 **Aryan Aman**  
-👨‍🎓 B.Tech CSE (Data Science), TMSL Kolkata 
+👨‍🎓 B.Tech CSE (Data Science), TMSL Kolkata
 📫 Connect with me:  
 - [LinkedIn](https://www.linkedin.com/in/aryan-aman-b3334b270/)  
 - [GitHub](https://github.com/aryanaman07)
@@ -146,7 +155,3 @@ You are free to use, modify, and distribute it with attribution.
 
 Have suggestions or improvements? Feel free to open an issue or message me directly. Let's make learning more engaging for students together!
 ```
-
----
-
-Let me know if you’d like a version with screenshots, GitHub badges, or a hosted demo link.
